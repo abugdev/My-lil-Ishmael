@@ -1,0 +1,68 @@
+body{
+    background-color: orange;
+    background-image: "IshmaelIcon.png";
+}
+
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+button{
+    background-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px, orangered, solid;
+    border-radius: 15px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+button:hover{
+    background-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px, orangered, solid;
+    border-radius: 20px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: white;
+
+    animation-name: Size;
+    animation-duration: 0.1s;
+    animation-iteration-count: 1;
+}
+
+.SelectImage{
+ opacity: 0;
+}
+
+.SelectImage:hover{
+ opacity: 1;
+}
+
+@keyframes Size {
+    from{
+    background-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px, orangered, solid;
+    border-radius: 15px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+    }
+
+    to{
+    background-color: orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px, orangered, solid;
+    border-radius: 20px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: white;
+    }
+}
